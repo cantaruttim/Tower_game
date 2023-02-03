@@ -25,5 +25,10 @@ class Tower:
     VELOCIDADE_ROTACAO = 20
     TEMPO = 5
 
-    def __init__(self):
-        
+    def __init__(self, attack, defense, shooting_speed, money, coins):
+        self.attack = attack
+        self.defense = defense
+        self.shooting_speed = shooting_speed
+        self.money = money
+        self.coins = coins
+
